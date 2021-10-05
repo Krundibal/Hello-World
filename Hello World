@@ -6,6 +6,26 @@ int main (){
 
     cout << "Hello World!" <<endl;
     cout << "Radim Peska" <<endl;
+    
+    int CC = 2;
+    double RC = 3;
+
+    char znak = 'd';
+    string retezec = "Toto je retezec.";
+
+    int mojePole [] = {1, 5, 8};
+    char poleZnaku [] = {'a', 'b', 'c'};
+
+    bool start = 0;
+    start = true;
+    start = false;
+
+    cout << "Velikost int = " << sizeof(int) << endl;
+    cout << "Znak = " << znak << endl;
+    cout << "Retezec = " << retezec << endl;
+    cout << "2. slozka pole = " << mojePole[1] << endl;
+    cout << "3. slozka pole znaku = " << poleZnaku[2] << endl;
+    cout << "Hodnota bool = °" << start << endl;
 
     return 0;
 }
